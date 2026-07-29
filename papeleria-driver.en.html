@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Repartidor PB</title>
+  <style>
+    :root {
+      --azul: #1a3e6f;
+      --azul-claro: #2c5d9b;
+      --texto: #222;
+      --gris: #555;
+      --borde: #e2e6ec;
+      --fondo-aviso: #fff8e1;
+      --borde-aviso: #f0c040;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--texto);
+      background: #f6f7f9;
+      margin: 0;
+      padding: 0;
+    }
+    .contenedor {
+      max-width: 820px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 32px 28px 56px;
+    }
+    header.cabecera {
+      border-bottom: 3px solid var(--azul);
+      padding-bottom: 16px;
+      margin-bottom: 24px;
+    }
+    h1 {
+      color: var(--azul);
+      font-size: 1.7em;
+      margin: 0 0 6px;
+    }
+    .subtitulo {
+      color: var(--gris);
+      font-size: 0.95em;
+      margin: 0;
+    }
+    .actualizacion {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: var(--gris);
+      background: #eef2f7;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+    h2 {
+      color: var(--azul-claro);
+      font-size: 1.2em;
+      margin-top: 32px;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid var(--borde);
+    }
+    h3 {
+      color: var(--texto);
+      font-size: 1.02em;
+      margin-bottom: 4px;
+    }
+    p { margin: 8px 0; }
+    ul { margin: 8px 0 8px 0; padding-left: 22px; }
+    li { margin: 5px 0; }
+    a { color: var(--azul-claro); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 14px 0;
+      font-size: 0.93em;
+    }
+    th, td {
+      border: 1px solid var(--borde);
+      padding: 9px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #eef2f7; color: var(--azul); }
+    .todo {
+      background: var(--fondo-aviso);
+      border: 1px solid var(--borde-aviso);
+      border-radius: 4px;
+      padding: 1px 6px;
+      font-weight: 600;
+      color: #8a6d00;
+      font-size: 0.92em;
+    }
+    .aviso {
+      background: var(--fondo-aviso);
+      border-left: 4px solid var(--borde-aviso);
+      padding: 12px 16px;
+      margin: 18px 0;
+      border-radius: 4px;
+    }
+    .destacado {
+      background: #eef5ff;
+      border-left: 4px solid var(--azul-claro);
+      padding: 12px 16px;
+      margin: 18px 0;
+      border-radius: 4px;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid var(--borde);
+      font-size: 0.85em;
+      color: var(--gris);
+    }
+    .tabla-scroll { overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <header class="cabecera">
+      <h1>Privacy Policy — Repartidor PB</h1>
+      <p class="subtitulo">Internal-use application for the delivery team of Papelería Bolivariana (bundle identifier: com.papeleriabolivariana.driverApp).</p>
+      <span class="actualizacion">Last updated: June 27, 2026</span>
+    </header>
+
+    <p>This Privacy Policy explains what personal data the <strong>Repartidor PB</strong> application ("the app") processes, for what purpose, with whom it is shared, and what rights you have over it. The app is an internal-use work tool; access is restricted to personnel authorized by the company through a phone number and PIN, and there is no public sign-up.</p>
+
+    <h2>1. Who we are</h2>
+    <p>The party responsible for the processing of the personal data collected through this app (the data controller) is:</p>
+    <ul>
+      <li><strong>Company / owner:</strong> <span class="todo">[TODO: legal company name, e.g. the registered business name of Papelería Bolivariana]</span></li>
+      <li><strong>Brand name:</strong> Papelería Bolivariana</li>
+      <li><strong>App developer:</strong> <span class="todo">[TODO: developer name / App Store account holder, if different]</span></li>
+      <li><strong>Address:</strong> <span class="todo">[TODO: mailing address]</span></li>
+      <li><strong>Contact email:</strong> <span class="todo">[TODO: support email]</span></li>
+    </ul>
+
+    <h2>2. What data we collect and why</h2>
+    <p>The app collects only the data needed to operate the home-delivery service. Each type of data, its source, and its purpose are detailed below:</p>
+
+    <h3>2.1. Driver data (app user)</h3>
+    <div class="tabla-scroll">
+    <table>
+      <thead>
+        <tr><th>Data</th><th>Source</th><th>Purpose</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Name</strong></td>
+          <td>Registered by the store administrator</td>
+          <td>Identify the driver to the dispatch center and to the customer during delivery.</td>
+        </tr>
+        <tr>
+          <td><strong>Phone number</strong></td>
+          <td>Registered by the administrator; used by the driver to sign in</td>
+          <td>Authentication (sign-in with phone number + PIN).</td>
+        </tr>
+        <tr>
+          <td><strong>Vehicle type and internal identifier (driverId)</strong></td>
+          <td>Registered by the administrator / stored on the device</td>
+          <td>Operations and order assignment.</td>
+        </tr>
+        <tr>
+          <td><strong>Precise GPS location</strong> (latitude, longitude, heading, speed, accuracy, and time)</td>
+          <td>Device sensor, only when the driver turns on "online" mode</td>
+          <td>Coordinate deliveries and show delivery progress to the dispatch center and the customer.</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="destacado">
+      <strong>About your location.</strong> Your precise GPS location is shared only while you turn on the "online" switch on the app's main screen. You can go offline at any time using that same switch, and the app will stop sharing your position. Location use is limited to delivery operations: <strong>it is not used for advertising, it is not sold, and it is not shared with third parties for tracking across apps or companies</strong>. Your location is linked to your identity (name and driver identifier) for operational purposes only.
+    </div>
+
+    <h3>2.2. Customer data (third parties) shown for each order</h3>
+    <p>To complete deliveries, the app displays and lets the driver update information about Papelería Bolivariana's customers. <strong>This data is entered by the store (administrator), not by the driver</strong>; the app only shows it to the assigned driver and lets them update the order status.</p>
+    <ul>
+      <li><strong>Customer name</strong></li>
+      <li><strong>Customer phone number</strong> (to call or message on WhatsApp with one tap)</li>
+      <li><strong>Delivery address and neighborhood</strong> (to open the route in Google Maps)</li>
+      <li><strong>Order details:</strong> products, total to collect, payment method, and tracking code</li>
+    </ul>
+    <p>The sole purpose of this data is to enable delivery of the order. The driver must keep it confidential and use it only to complete the delivery.</p>
+
+    <h3>2.3. What we do NOT collect</h3>
+    <ul>
+      <li>We do not use advertising or ad networks.</li>
+      <li>We do not use analytics tools or third-party tracking SDKs.</li>
+      <li>We do not collect advertising identifiers (IDFA) or perform cross-app tracking.</li>
+      <li>We do not sell personal data to third parties.</li>
+    </ul>
+
+    <h2>3. Legal basis and purpose of processing</h2>
+    <p>We process the data described above for the following purposes and on the following legal bases:</p>
+    <ul>
+      <li><strong>Performance of the employment or service relationship</strong> with the driver: authentication, order assignment, and delivery coordination.</li>
+      <li><strong>Legitimate interest and operation of the home-delivery service</strong>: sharing location during the workday (only in "online" mode) to coordinate and show progress to the customer.</li>
+      <li><strong>Fulfillment of the service to the end customer:</strong> processing the order data (customer name, phone number, and address) needed to deliver the requested purchase.</li>
+    </ul>
+    <p>Processing is limited to what is strictly necessary for the app's functionality ("App Functionality").</p>
+
+    <h2>4. Third parties and sub-processors</h2>
+    <p>To provide the service, we rely on the following providers. Each one processes the data on our behalf or under its own policy:</p>
+    <div class="tabla-scroll">
+    <table>
+      <thead>
+        <tr><th>Provider</th><th>Service</th><th>Data involved</th><th>Privacy policy</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Google — Firebase / Cloud Firestore</strong></td>
+          <td>Cloud database where drivers, orders, delivery statuses, and the location shared in "online" mode are stored.</td>
+          <td>Driver name, phone number, and identifier; GPS location; and customer order data.</td>
+          <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a> · <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td><strong>Google Maps</strong> (external app)</td>
+          <td>When you tap an address, the app opens it in Google Maps for navigation. Navigation takes place outside Repartidor PB, in the Google Maps app.</td>
+          <td>Order delivery address.</td>
+          <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td><strong>WhatsApp / device phone</strong> (external apps)</td>
+          <td>The app can start a call or open a WhatsApp chat with the customer. That communication takes place outside Repartidor PB, in the corresponding app.</td>
+          <td>Customer phone number.</td>
+          <td><a href="https://www.whatsapp.com/legal/privacy-policy" target="_blank" rel="noopener">whatsapp.com/legal/privacy-policy</a></td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <p>Data may be stored on Google servers located outside your country. Google applies its own security safeguards and international data transfer safeguards.</p>
+
+    <h2>5. Data retention</h2>
+    <ul>
+      <li>Driver data (name, phone number, vehicle type) is kept while the account remains active in the company's system.</li>
+      <li>Location records are kept for as long as needed to coordinate and track deliveries, and are then deleted or anonymized according to the company's operational policy: <span class="todo">[TODO: state the retention period, e.g. 30/90 days]</span>.</li>
+      <li>Order data and its history are kept according to the company's operational and accounting needs.</li>
+      <li>Some driver data (identifier, name, phone number, and vehicle type) is stored locally on the device to maintain the session; it is removed when you sign out or uninstall the app.</li>
+    </ul>
+
+    <h2>6. Your rights and how to exercise them</h2>
+    <p>You have the right to request <strong>access</strong> to, <strong>rectification</strong> of, <strong>erasure</strong> of, and <strong>restriction</strong> of the processing of your personal data, as well as to object to certain processing.</p>
+    <p>To exercise these rights, write to <span class="todo">[TODO: support email]</span> stating your name and your specific request. We will respond to your request within a reasonable time.</p>
+    <ul>
+      <li><strong>Drivers:</strong> you can stop sharing your location at any time by turning off "online" mode. To deactivate your account, contact the store administrator or the support email.</li>
+      <li><strong>Customers:</strong> if you are a customer and want to exercise your rights over your order data (name, phone number, address), contact Papelería Bolivariana directly at the support email indicated.</li>
+    </ul>
+
+    <h2>7. Minors</h2>
+    <p>Repartidor PB is a work tool intended exclusively for adult personnel authorized by the company. It is not directed at minors, and we do not knowingly collect data from minors. If you believe a minor has provided us with data, please contact us so we can delete it.</p>
+
+    <h2>8. Security</h2>
+    <p>We apply reasonable technical and organizational measures to protect the data. Communications with the database are carried out over standard encrypted connections (HTTPS) through Firebase / Cloud Firestore. Access to the app requires authentication with a phone number and PIN. We recommend that you do not share your PIN or leave your session open on other people's devices.</p>
+    <p>No system is completely secure; if you detect a security issue, please report it to the support email.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>We may update this Privacy Policy to reflect changes in the app or in applicable regulations. We will publish the current version on this same page and indicate the "Last updated" date at the top. We recommend that you review it periodically.</p>
+
+    <h2>10. Contact</h2>
+    <p>If you have questions about this policy or about the processing of your data, contact us:</p>
+    <ul>
+      <li><strong>Support email:</strong> <span class="todo">[TODO: support email]</span></li>
+      <li><strong>Owner:</strong> <span class="todo">[TODO: legal company name]</span></li>
+      <li><strong>Address:</strong> <span class="todo">[TODO: mailing address]</span></li>
+    </ul>
+
+    <footer>
+      <p>Repartidor PB — Papelería Bolivariana · com.papeleriabolivariana.driverApp · Last updated: June 27, 2026.</p>
+    </footer>
+  </div>
+</body>
+</html>

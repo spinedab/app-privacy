@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de Privacidad — Confessio IA</title>
+  <style>
+    :root {
+      --bg: #f7f7f8;
+      --card: #ffffff;
+      --text: #1f2330;
+      --muted: #5a6072;
+      --accent: #4a4ec8;
+      --border: #e4e5ec;
+      --todo-bg: #fff4e0;
+      --todo-border: #f0c674;
+      --todo-text: #7a5300;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      font-size: 17px;
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    header.doc {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px 26px;
+      margin-bottom: 28px;
+    }
+    header.doc h1 {
+      margin: 0 0 6px;
+      font-size: 1.7rem;
+      letter-spacing: -0.01em;
+    }
+    header.doc .sub {
+      color: var(--muted);
+      font-size: 0.98rem;
+      margin: 0;
+    }
+    header.doc .updated {
+      margin-top: 14px;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+    main {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 8px 26px 26px;
+    }
+    section { padding: 18px 0; border-bottom: 1px solid var(--border); }
+    section:last-child { border-bottom: none; }
+    h2 {
+      font-size: 1.18rem;
+      margin: 12px 0 8px;
+      letter-spacing: -0.01em;
+    }
+    h2 .num {
+      color: var(--accent);
+      font-variant-numeric: tabular-nums;
+      margin-right: 8px;
+    }
+    h3 { font-size: 1.02rem; margin: 16px 0 4px; }
+    p { margin: 8px 0; }
+    ul { margin: 8px 0; padding-left: 22px; }
+    li { margin: 5px 0; }
+    a { color: var(--accent); word-break: break-word; }
+    .lead {
+      color: var(--muted);
+      font-size: 1.02rem;
+    }
+    .todo {
+      display: inline-block;
+      background: var(--todo-bg);
+      border: 1px solid var(--todo-border);
+      color: var(--todo-text);
+      border-radius: 6px;
+      padding: 1px 7px;
+      font-size: 0.9em;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+    .callout {
+      background: #eef0ff;
+      border: 1px solid #d4d7f5;
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin: 14px 0;
+    }
+    .callout.warn {
+      background: #fff4e0;
+      border-color: var(--todo-border);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.96rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 9px 10px;
+      border: 1px solid var(--border);
+      vertical-align: top;
+    }
+    th { background: #f0f1f6; font-weight: 600; }
+    .scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    footer {
+      margin-top: 28px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+    code {
+      background: #f0f1f6;
+      border: 1px solid var(--border);
+      border-radius: 5px;
+      padding: 1px 5px;
+      font-size: 0.92em;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    @media (max-width: 480px) {
+      body { font-size: 16px; }
+      header.doc, main { padding-left: 18px; padding-right: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="doc">
+      <h1>Política de Privacidad — Confessio IA</h1>
+      <p class="sub">Aplicación para iOS (iPhone y iPad) · Identificador <code>com.confessio.confessioIa</code></p>
+      <p class="updated"><strong>Última actualización:</strong> 27 de junio de 2026</p>
+    </header>
+
+    <main>
+      <section>
+        <p class="lead">Confessio IA es un confesionario y diario privado. Esta política explica de forma honesta qué datos trata la aplicación, con qué fin y con qué terceros, distinguiendo siempre entre el <strong>modo local</strong> (sin conexión) y el <strong>modo IA en la nube</strong>.</p>
+        <div class="callout">
+          <strong>Resumen rápido.</strong> En <strong>modo local</strong> nada sale de tu dispositivo: tus textos se cifran en tu iPhone o iPad. En <strong>modo IA en la nube</strong> (que viene activado de forma predeterminada) el texto que escribes se envía cifrado por HTTPS a nuestro servidor, que genera la respuesta utilizando el modelo Claude de Anthropic y <strong>no conserva ese texto más allá de la petición</strong>. No usamos cuentas, no hay registro, no usamos analítica ni publicidad y no realizamos seguimiento (tracking).
+        </div>
+      </section>
+
+      <section>
+        <h2><span class="num">1.</span>Quiénes somos</h2>
+        <p>Esta aplicación, "Confessio IA", es desarrollada y operada por <span class="todo">[TODO: nombre legal de la empresa o desarrollador]</span>, en adelante "nosotros". Somos responsables del tratamiento de los datos descritos en esta política.</p>
+        <ul>
+          <li><strong>Aplicación:</strong> Confessio IA (iOS).</li>
+          <li><strong>Identificador del paquete (bundle ID):</strong> <code>com.confessio.confessioIa</code>.</li>
+          <li><strong>Responsable / desarrollador:</strong> <span class="todo">[TODO: nombre legal]</span>.</li>
+          <li><strong>Contacto:</strong> <span class="todo">[TODO: email de soporte]</span> (ver sección 10).</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><span class="num">2.</span>Qué datos recopilamos y con qué fin</h2>
+        <p>Confessio IA funciona en dos modos. Lo que tratamos depende del modo activo.</p>
+
+        <h3>2.1 Modo local (sin conexión)</h3>
+        <p>En modo local, la aplicación funciona completamente en tu dispositivo, sin cuenta y sin registro. <strong>No recopilamos ningún dato personal</strong> y nada de lo que escribes sale de tu iPhone o iPad. Tus sesiones se guardan en una Bóveda cifrada localmente (ver sección 8) a la que solo tú accedes con Face ID o Touch ID.</p>
+
+        <h3>2.2 Modo IA en la nube (activado de forma predeterminada)</h3>
+        <div class="callout warn">
+          <strong>Importante y honesto:</strong> el modo IA en la nube viene <strong>activado de fábrica</strong>. Mientras esté activado, el texto que escribas (tus confesiones, dilemas o reflexiones) se envía a nuestro servidor para generar la respuesta. Puedes desactivar este modo en cualquier momento desde los controles de la aplicación para no enviar nada fuera del dispositivo.
+        </div>
+        <p>Cuando el modo IA en la nube está activado, tratamos los siguientes datos:</p>
+        <div class="scroll-x">
+          <table>
+            <thead>
+              <tr>
+                <th>Dato</th>
+                <th>Finalidad</th>
+                <th>¿Vinculado a tu identidad?</th>
+                <th>¿Seguimiento?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Contenido de usuario: el texto libre que escribes (tus confesiones, dilemas y reflexiones)</td>
+                <td>Generar la respuesta del perfil elegido (funcionalidad de la app)</td>
+                <td>No. No usamos cuentas, inicio de sesión, correo ni identificador de usuario.</td>
+                <td>No</td>
+              </tr>
+              <tr>
+                <td>Dirección IP (transitoria) y un token compartido de la aplicación</td>
+                <td>Permitir la conexión con nuestro servidor y limitar el abuso (control de frecuencia / rate-limiting)</td>
+                <td>No. La IP se usa de forma transitoria y no se asocia a una identidad personal.</td>
+                <td>No</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Tu texto puede tratar temas sensibles (por ejemplo, salud mental, adicciones, trauma, creencias o relaciones), ya que la app está pensada para que escribas lo que te pesa. En modo nube, ese texto se transmite a nuestro servidor y al proveedor del modelo (ver sección 4) únicamente para producir la respuesta. <strong>No recopilamos ese contenido como un campo estructurado de "datos de salud"</strong>: forma parte del texto libre que tú decides escribir, y solo se utiliza para la funcionalidad de la app, nunca para analítica, publicidad ni personalización entre aplicaciones.</p>
+
+        <h3>2.3 Lo que NO recopilamos</h3>
+        <p>Confessio IA <strong>no</strong> recopila ni utiliza:</p>
+        <ul>
+          <li>Datos de diagnóstico, informes de fallos (crash reporting) ni analítica de uso. La app no integra SDK de analítica, telemetría ni publicidad.</li>
+          <li>Identificadores publicitarios ni datos para seguimiento entre apps o sitios web.</li>
+          <li>Ubicación, cámara, micrófono, contactos, fotos ni calendario. La app no solicita esos permisos.</li>
+          <li>Datos de salud o estado físico como campos estructurados.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><span class="num">3.</span>Base y propósito del tratamiento</h2>
+        <p>Tratamos los datos descritos con las siguientes finalidades y bases:</p>
+        <ul>
+          <li><strong>Prestar la funcionalidad principal de la app:</strong> en modo nube, enviar tu texto a nuestro servidor para generar la respuesta del perfil. La base es la ejecución del servicio que solicitas al usar esa función y, en su caso, tu consentimiento al mantener activado el modo nube (puedes retirarlo desactivándolo).</li>
+          <li><strong>Seguridad y prevención de abuso:</strong> uso transitorio de la dirección IP y de un token compartido para permitir la conexión y limitar el uso indebido (interés legítimo en mantener el servicio operativo y seguro).</li>
+        </ul>
+        <p>No tratamos tus datos con fines de publicidad, elaboración de perfiles comerciales ni venta de datos a terceros.</p>
+      </section>
+
+      <section>
+        <h2><span class="num">4.</span>Terceros y subprocesadores</h2>
+        <p>En modo local no interviene ningún tercero. En <strong>modo IA en la nube</strong> participan:</p>
+        <ul>
+          <li>
+            <strong>Nuestro servidor (backend propio).</strong> Recibe tu texto por una conexión cifrada (HTTPS) y lo reenvía al proveedor del modelo para generar la respuesta. <strong>No conserva el contenido de tu texto más allá del tiempo necesario para procesar la petición.</strong>
+          </li>
+          <li>
+            <strong>Anthropic (modelo Claude).</strong> Nuestro servidor utiliza el modelo Claude de Anthropic para generar la respuesta a partir de tu texto. Anthropic actúa como proveedor de procesamiento bajo sus propios términos y política de privacidad. Confessio IA no está afiliada oficialmente a Anthropic. Consulta su política en
+            <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">https://www.anthropic.com/legal/privacy</a>.
+          </li>
+        </ul>
+        <p>No utilizamos proveedores de analítica, publicidad ni redes sociales como subprocesadores.</p>
+      </section>
+
+      <section>
+        <h2><span class="num">5.</span>Conservación</h2>
+        <ul>
+          <li><strong>En tu dispositivo:</strong> tus sesiones se guardan en la Bóveda cifrada localmente y permanecen ahí hasta que tú las elimines. La función "Quemar bóveda" borra todas tus sesiones cuando lo desees.</li>
+          <li><strong>En modo nube:</strong> el texto enviado se procesa para generar la respuesta y <strong>no se conserva más allá de la petición</strong> en nuestro servidor. La dirección IP se trata de forma transitoria para el control de frecuencia y no se almacena de forma asociada a tu identidad.</li>
+        </ul>
+        <p>El tratamiento del texto por parte de Anthropic se rige por sus propios plazos y términos de conservación (ver sección 4).</p>
+      </section>
+
+      <section>
+        <h2><span class="num">6.</span>Tus derechos y cómo ejercerlos</h2>
+        <p>Como la app no usa cuentas y, en gran medida, los datos viven en tu propio dispositivo, tú mantienes el control directo:</p>
+        <ul>
+          <li><strong>Acceso y portabilidad:</strong> tus sesiones están en tu dispositivo, dentro de la Bóveda. Puedes consultarlas y copiar o compartir tus reflexiones cuando quieras.</li>
+          <li><strong>Borrado:</strong> elimina sesiones individualmente o usa "Quemar bóveda" para borrarlas todas. Desactivar el modo nube detiene cualquier envío de texto fuera del dispositivo.</li>
+          <li><strong>Oposición / retirada del consentimiento:</strong> desactiva el modo IA en la nube en cualquier momento.</li>
+        </ul>
+        <p>Si tienes dudas o quieres ejercer cualquier derecho aplicable según tu jurisdicción (acceso, rectificación, supresión, oposición, limitación o portabilidad), escríbenos a <span class="todo">[TODO: email de soporte]</span>. Responderemos en los plazos que exija la normativa aplicable.</p>
+      </section>
+
+      <section>
+        <h2><span class="num">7.</span>Menores de edad</h2>
+        <p>Confessio IA está dirigida a personas adultas (clasificación 17+) y <strong>no está destinada a menores de edad</strong>. No es una app del programa "Made for Kids". No recopilamos a sabiendas datos de menores. Si crees que un menor ha usado la app y nos ha facilitado información, contáctanos para tomar las medidas oportunas.</p>
+      </section>
+
+      <section>
+        <h2><span class="num">8.</span>Seguridad</h2>
+        <ul>
+          <li><strong>Bóveda cifrada en el dispositivo:</strong> tus sesiones se cifran localmente con <strong>AES-GCM</strong>.</li>
+          <li><strong>Protección de la clave:</strong> la clave de cifrado se guarda en el Llavero (Keychain) de iOS.</li>
+          <li><strong>Desbloqueo biométrico:</strong> el acceso a la Bóveda se protege con <strong>Face ID</strong> o <strong>Touch ID</strong>, de modo que solo tú entras.</li>
+          <li><strong>Cifrado en tránsito:</strong> en modo nube, el texto viaja cifrado mediante <strong>HTTPS/TLS</strong>.</li>
+        </ul>
+        <p>Ninguna medida de seguridad es infalible, pero aplicamos cifrado estándar del sector para proteger tus datos tanto en reposo (en el dispositivo) como en tránsito.</p>
+      </section>
+
+      <section>
+        <h2><span class="num">9.</span>Cambios a esta política</h2>
+        <p>Podemos actualizar esta política para reflejar cambios en la app o en la normativa. Publicaremos la versión vigente en esta misma dirección y actualizaremos la fecha de "Última actualización". Si los cambios son significativos, procuraremos avisarte por medios razonables dentro de la app.</p>
+      </section>
+
+      <section>
+        <h2><span class="num">10.</span>Contacto</h2>
+        <p>Para cualquier consulta sobre esta política o sobre tus datos, escríbenos a:</p>
+        <ul>
+          <li><strong>Correo de soporte:</strong> <span class="todo">[TODO: email de soporte]</span></li>
+          <li><strong>Responsable:</strong> <span class="todo">[TODO: nombre legal]</span></li>
+        </ul>
+      </section>
+
+      <footer>
+        Confessio IA · <code>com.confessio.confessioIa</code> · Última actualización: 27 de junio de 2026
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
