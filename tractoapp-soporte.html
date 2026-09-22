@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soporte — TractoApp</title>
+<style>
+  :root {
+    --azul: #0e7c66;
+    --texto: #1f2933;
+    --gris: #52606d;
+    --borde: #e4e7eb;
+    --fondo-aviso: #fff8e1;
+    --borde-aviso: #f0c419;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    color: var(--texto);
+    background: #f7f9fb;
+  }
+  .contenedor {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 24px 20px 64px;
+  }
+  header.doc {
+    border-bottom: 3px solid var(--azul);
+    padding-bottom: 16px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 1.9rem;
+    margin: 0 0 4px;
+    color: var(--azul);
+  }
+  .actualizado {
+    color: var(--gris);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+  h2 {
+    font-size: 1.25rem;
+    margin-top: 2.2rem;
+    border-bottom: 1px solid var(--borde);
+    padding-bottom: 6px;
+  }
+  h3 { font-size: 1.05rem; margin-top: 1.4rem; }
+  p, li { font-size: 1rem; }
+  a { color: var(--azul); word-break: break-word; }
+  ul { padding-left: 1.3rem; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 0.95rem;
+  }
+  th, td {
+    border: 1px solid var(--borde);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: #eef3fb; }
+  .todo {
+    background: var(--fondo-aviso);
+    border: 1px dashed var(--borde-aviso);
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-weight: 600;
+    color: #8a6d00;
+    white-space: nowrap;
+  }
+  .nota {
+    background: #eef3fb;
+    border-left: 4px solid var(--azul);
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin: 1rem 0;
+  }
+  footer.doc {
+    margin-top: 3rem;
+    padding-top: 16px;
+    border-top: 1px solid var(--borde);
+    color: var(--gris);
+    font-size: 0.9rem;
+  }
+  @media (max-width: 520px) {
+    h1 { font-size: 1.55rem; }
+    table, .contenedor { font-size: 0.92rem; }
+    th, td { padding: 6px 7px; }
+  }
+</style>
+</head>
+<body>
+<div class="contenedor">
+<header class="doc">
+  <h1>Soporte — TractoApp</h1>
+  <p class="actualizado">Copiloto operativo del transportador de carga en Colombia.</p>
+</header>
+<h2>Contacto</h2>
+<p><strong>Email de soporte:</strong> <a href="mailto:santiago.pinedab@gmail.com?subject=Soporte%20TractoApp">santiago.pinedab@gmail.com</a></p>
+<p>Respondemos en un máximo de 2 días hábiles. Incluye el modelo de tu teléfono y una descripción de lo que ocurrió.</p>
+<h2>Preguntas frecuentes</h2>
+<h3>¿El flete que muestra la app es el oficial?</h3>
+<p>No. Es una referencia técnica calculada por corredor. La consulta oficial se hace en el SICE-TAC del Ministerio de Transporte.</p>
+<h3>¿La app radica información ante el RNDC?</h3>
+<p>No. La integración RNDC funciona en modo de prueba y no envía información al Ministerio.</p>
+<h3>Los servicios aparecen "fuera de línea"</h3>
+<p>Verifica tu conexión a internet e inténtalo de nuevo. Si persiste, escríbenos.</p>
+<h3>¿Cómo elimino mis datos?</h3>
+<p>La app no crea cuentas. Si quieres eliminar un reporte de novedad, escríbenos indicando la fecha aproximada.</p>
+<footer class="doc">
+  <p><a href="tractoapp.html">Política de privacidad</a> · <a href="index.html">Todas las apps</a></p>
+</footer>
+</div>
+</body>
+</html>
