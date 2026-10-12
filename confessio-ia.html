@@ -142,14 +142,14 @@
     <header class="doc">
       <h1>Política de Privacidad — Confessio IA</h1>
       <p class="sub">Aplicación para iOS (iPhone y iPad) · Identificador <code>com.confessio.confessioIa</code></p>
-      <p class="updated"><strong>Última actualización:</strong> 27 de junio de 2026</p>
+      <p class="updated"><strong>Última actualización:</strong> 12 de octubre de 2026</p>
     </header>
 
     <main>
       <section>
         <p class="lead">Confessio IA es un confesionario y diario privado. Esta política explica de forma honesta qué datos trata la aplicación, con qué fin y con qué terceros, distinguiendo siempre entre el <strong>modo local</strong> (sin conexión) y el <strong>modo IA en la nube</strong>.</p>
         <div class="callout">
-          <strong>Resumen rápido.</strong> En <strong>modo local</strong> nada sale de tu dispositivo: tus textos se cifran en tu iPhone o iPad. En <strong>modo IA en la nube</strong> (que viene activado de forma predeterminada) el texto que escribes se envía cifrado por HTTPS a nuestro servidor, que genera la respuesta utilizando el modelo Claude de Anthropic y <strong>no conserva ese texto más allá de la petición</strong>. No usamos cuentas, no hay registro, no usamos analítica ni publicidad y no realizamos seguimiento (tracking).
+          <strong>Resumen rápido.</strong> En <strong>modo local</strong> nada sale de tu dispositivo: tus textos se cifran en tu iPhone o iPad. En <strong>modo IA en la nube</strong> (que viene activado de forma predeterminada) el texto que escribes se envía cifrado por HTTPS a nuestro servidor, que genera la respuesta con un modelo de IA (un modelo Gemma alojado en infraestructura propia o, según disponibilidad, Claude de Anthropic) y <strong>no conserva ese texto más allá de la petición</strong>. No usamos cuentas, no hay registro, no usamos analítica ni publicidad y no realizamos seguimiento (tracking).
         </div>
       </section>
 
@@ -232,7 +232,14 @@
             <strong>Nuestro servidor (backend propio).</strong> Recibe tu texto por una conexión cifrada (HTTPS) y lo reenvía al proveedor del modelo para generar la respuesta. <strong>No conserva el contenido de tu texto más allá del tiempo necesario para procesar la petición.</strong>
           </li>
           <li>
-            <strong>Anthropic (modelo Claude).</strong> Nuestro servidor utiliza el modelo Claude de Anthropic para generar la respuesta a partir de tu texto. Anthropic actúa como proveedor de procesamiento bajo sus propios términos y política de privacidad. Confessio IA no está afiliada oficialmente a Anthropic. Consulta su política en
+            <strong>Modelo Gemma en infraestructura propia.</strong> Por defecto, la respuesta se genera con un modelo Gemma que ejecutamos en equipos propios. En ese caso tu texto no pasa por ningún proveedor de IA externo.
+          </li>
+          <li>
+            <strong>Cloudflare (red).</strong> El tráfico entre la app, nuestro servidor y nuestros equipos de IA viaja por la red de Cloudflare, que actúa como proveedor de conectividad y protección. Cloudflare no utiliza el contenido para otros fines. Consulta su política en
+            <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">https://www.cloudflare.com/privacypolicy/</a>.
+          </li>
+          <li>
+            <strong>Anthropic (modelo Claude), cuando se usa.</strong> Cuando nuestro modelo propio no está disponible, nuestro servidor puede usar el modelo Claude de Anthropic para generar la respuesta a partir de tu texto. Anthropic actúa como proveedor de procesamiento bajo sus propios términos y política de privacidad. Confessio IA no está afiliada oficialmente a Anthropic. Consulta su política en
             <a href="https://www.anthropic.com/legal/privacy" target="_blank" rel="noopener">https://www.anthropic.com/legal/privacy</a>.
           </li>
         </ul>
@@ -245,7 +252,7 @@
           <li><strong>En tu dispositivo:</strong> tus sesiones se guardan en la Bóveda cifrada localmente y permanecen ahí hasta que tú las elimines. La función "Quemar bóveda" borra todas tus sesiones cuando lo desees.</li>
           <li><strong>En modo nube:</strong> el texto enviado se procesa para generar la respuesta y <strong>no se conserva más allá de la petición</strong> en nuestro servidor. La dirección IP se trata de forma transitoria para el control de frecuencia y no se almacena de forma asociada a tu identidad.</li>
         </ul>
-        <p>El tratamiento del texto por parte de Anthropic se rige por sus propios plazos y términos de conservación (ver sección 4).</p>
+        <p>Cuando interviene Anthropic, el tratamiento del texto se rige por sus propios plazos y términos de conservación (ver sección 4).</p>
       </section>
 
       <section>
@@ -290,7 +297,7 @@
       </section>
 
       <footer>
-        Confessio IA · <code>com.confessio.confessioIa</code> · Última actualización: 27 de junio de 2026
+        Confessio IA · <code>com.confessio.confessioIa</code> · Última actualización: 12 de octubre de 2026
       </footer>
     </main>
   </div>
